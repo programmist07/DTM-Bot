@@ -3,9 +3,9 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import random
 
-Token = "7579607941:AAFWJ1xwZxrIQyWUbIc2NwNXJGH6EQf1ea0"
-channel_id = "@hikvik"
-users_file = "users.json"
+Token = "Token here"
+channel_id = "link"
+users_file = "json"
 
 
 async def load_users():
